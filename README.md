@@ -5,19 +5,19 @@ Dependency:
 -----------
 Please install boost, you can use the following version or other version [boost_1_65_0.tar.gz](https://dl.bintray.com/boostorg/release/1.65.0/source/) The following are the commands to install boost.<br>
 ```
-            tar -zxvf boost_1_65_1.tar.gz
-            cd boost_1_65_1
-            ./bootstrap.sh
-            ./bjam
-            cp -r boost/ /usr/local/include/
+tar -zxvf boost_1_65_1.tar.gz
+cd boost_1_65_1
+./bootstrap.sh
+./bjam
+cp -r boost/ /usr/local/include/
 ```
 You should also install tcmalloc which is included in [gperftools](https://github.com/gperftools/gperftools).<br>
 ```
-            tar zxvf gperftools-2.7.tar.gz
-            cd gperftools-2.7
-            ./configure --prefix=/usr/local
-            make
-            make install
+tar zxvf gperftools-2.7.tar.gz
+cd gperftools-2.7
+./configure --prefix=/usr/local
+make
+make install
 ```
 
 Building:
@@ -29,10 +29,10 @@ Using:
 AlphaBit currently includes two executables. The first (buildTripleBitFromN3)
 is used to build a new database from an turtle/ntriples input: <br>
 ```
-            buildTripleBitFromN3 mydata.n3 database_directory
+buildTripleBitFromN3 mydata.n3 database_directory
 ```
 After loading the database can be queried with triplebitQuery: <br>
 ```
-            triplebitQuery database_directory query_directory
+triplebitQuery database_directory query_directory
 ```
 The program shows a command prompt and accept SPARQL queries.<br>
