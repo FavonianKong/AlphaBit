@@ -5,8 +5,8 @@ Dependency:
 -----------
 Please install boost, you can use the following version or other version [boost_1_65_0.tar.gz](https://dl.bintray.com/boostorg/release/1.65.0/source/) The following are the commands to install boost.<br>
 ```
-tar -zxvf boost_1_65_1.tar.gz
-cd boost_1_65_1
+tar -zxvf boost_1_65_0.tar.gz
+cd boost_1_65_0
 ./bootstrap.sh
 ./bjam
 cp -r boost/ /usr/local/include/
