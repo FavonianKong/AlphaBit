@@ -29,10 +29,10 @@ Using:
 AlphaBit currently includes two executables. The first (buildTripleBitFromN3)
 is used to build a new database from an turtle/ntriples input: <br>
 ```
-buildTripleBitFromN3 mydata.n3 database_directory
+./buildTripleBitFromN3 mydata.n3 database_directory
 ```
 After loading the database can be queried with triplebitQuery: <br>
 ```
-triplebitQuery database_directory query_directory
+./triplebitQuery database_directory query_directory
 ```
 The program shows a command prompt and accept SPARQL queries.<br>
